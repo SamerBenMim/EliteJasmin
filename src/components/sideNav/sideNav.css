@@ -1,0 +1,49 @@
+.SideNav{
+    position: fixed;
+    background: white;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    width: 50%;
+    transform: translateX(100%);
+    transition: ease-out .9s ;
+    z-index: 11;
+    display: flex;
+    align-items: center;
+
+}
+
+.openNav{
+    transform: translateX(0%);
+    transition: ease-out .9s ;
+} .side{
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+.menuItem{
+    height: 100%;
+    width: 100%;
+}
+.options{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin-top: 100px;
+}
+@media screen and (max-width: 900px) {
+  
+    .X{
+      display: block;
+      top: 0;
+      right: 25px;
+    }
+   }
+     @media screen and (max-width: 600px) {
+        .SideNav{
+        width:77%;
+        
+        }
+   
+   }

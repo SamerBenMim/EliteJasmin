@@ -1,0 +1,20 @@
+.image{
+    /* width: 100vw;
+    height: 88vh;
+    background-image: url('../../../assets/19264420_475301836152540_6674068954699460727_o.jpg');
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: fixed;
+    background-size:contain */
+    width: 100vw;
+    height: 90vh;
+    background-image: url('../../../assets/19264420_475301836152540_6674068954699460727_o.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}

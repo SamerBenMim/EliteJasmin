@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+.boule-container{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+h3{
+    font-family: 'Patrick Hand', cursive;
+    font-weight: 600;
+    color: #149b86;
+    letter-spacing: 1px;
+    font-size: 31px;
+}
+
+
+@media only screen and (max-width: 900px) {
+    .boule-container{
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+    }
+  }
+
+
+
+ 

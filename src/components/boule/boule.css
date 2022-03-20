@@ -1,0 +1,64 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@500&family=Hi+Melody&display=swap');
+/* .home-maternelle-services-item .home-maternelle-services-item-titre {
+    color: #097677;
+    margin-top: 200px;
+    text-align: center;
+} */
+.home-maternelle-services-item .home-maternelle-services-item-icon {
+    background: #097677;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+ 
+}
+.home-maternelle-services-item .home-maternelle-services-item-icon img {
+    max-width: 100px;
+    max-height: 100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    -o-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+}
+/* .home-maternelle-services-item .home-maternelle-services-item-titre {
+    font-size: 22px;
+} */
+.home-maternelle-services-item  {
+    transition: all .8s ease-in-out;
+    background: #097677;
+    border-radius: 100%;
+    width: 200px;
+    height: 200px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    position: relative;
+}
+/* .home-maternelle-services-item .home-maternelle-services-item-text {
+    font-size: 17px;
+    font-family: "Dosis-Regular";
+    text-align: center;
+} */
+.home-maternelle-services-item:hover{
+    transform: translateY(-30px);
+}
+.block-boule{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 45px;
+}
+.titre{
+    color: inherit;
+    font-size: 23px;
+    font-family: 'Dosis', sans-serif;
+    width: 100%;
+
+}

@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@500&family=Hi+Melody&display=swap');
+.navbar{
+    height: 85px;
+    display: flex;
+    width: 100%;
+}
+.menu {
+    display: flex;
+    width: 100%;
+    justify-content: end;
+}
+.option{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    outline: none; 
+    text-decoration: none;
+    padding: 0px 5px;
+    /* line-height: 0; */
+    font-weight: 700;
+    /* height: 84px; */
+    text-align: left;
+    width: auto;
+    color: #165486;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 21px;
+    margin-left: 18px;
+    font-family: 'Dosis', sans-serif;
+    font-family: 'Hi Melody', cursive;
+}
+.option:hover{
+    color: #00a7d9;
+    cursor: pointer;
+}
+
+.logo{
+    z-index: 0;
+    width: 31%;
+}
+.Logo-img{
+    margin-left: 61px;
+    height: 150px;
+    width: 240px;
+
+}
+.active{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    outline: none; 
+    text-decoration: none;
+    padding: 0px 5px;
+    /* line-height: 0; */
+    font-weight: 700;
+    /* height: 84px; */
+    text-align: left;
+    width: auto;
+    color: #165486;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 21px;
+    margin-left: 18px;
+    font-family: 'Dosis', sans-serif;
+    font-family: 'Hi Melody', cursive;
+    color: #00a7d9;
+}
+
+@media only screen and (max-width: 900px) {
+    .menu {
+        display: none;
+    }
+  }
+  @media only screen and (max-width: 600px) {
+    .Logo-img {
+        margin-left: 30px;    }
+  }
+
+
+/* 
+  @media only screen and (max-width: 900px) {
+      .logo {
+        width: 65%;
+      }
+    } */   

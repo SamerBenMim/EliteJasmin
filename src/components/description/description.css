@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@500&family=Hi+Melody&family=Leckerli+One&display=swap');
+
+@media only screen and (max-width: 767px){
+    
+    .text-slide h1, .text-slide h2 {
+        font-size: 30px;
+        font-weight: 400;
+    }
+}
+    .text-slide h1, .text-slide h2 {
+    font-size: 40px;
+    font-weight: 400;
+    text-shadow: 0 0 15px #000;
+}
+
+.text-slide h1 {    font-weight: 400;
+    margin-bottom: 30px;
+}
+.text-slide {
+    font-weight: 400;
+    font-family: 'Leckerli One', cursive;
+    color: #fff;
+    opacity:1;
+    text-align: center;
+    margin-top: 5%;
+    animation: FadeIn 2.2s cubic-bezier(0.4, 0, 0.21, 1.04);
+}
+.content-slide {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 90%;
+    text-align: center;
+}
+@media only screen and (max-width: 767px){
+
+    .text-slide h1, .text-slide h2 {
+        font-size: 30px;
+    }
+}
+
+.text-slide h1, .text-slide h2 {
+    font-size: 40px;
+    text-shadow: 0 0 9px #000;
+}
+.slide-item0 .btns-slide a {
+    height: 40px;
+    width: 200px;
+    padding: 10px;
+}
+.btns-slide a {
+    text-align: center;
+    display: inline-block;
+    color: #fff;
+    text-transform: uppercase;
+    margin: 10px;
+    border-radius: 4px;
+    position: relative;
+    -webkit-transition: 1s all;
+    -moz-transition: 1s all;
+    -ms-transition: 1s all;
+    -o-transition: 1s all;
+    transition: 1s all;
+    padding: 10px;
+    width: 200px;
+}
+.btns-slide{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    animation: move 1.5s cubic-bezier(0.4, 0, 0.21, 1.04);
+
+}
+.media{
+    animation: move2 1.5s cubic-bezier(0.4, 0, 0.21, 1.04);
+
+}
+.btn-slide-bleu-light {
+    background: #00a8d9;
+    border: 1px solid #00a8d9;
+}
+
+.btn-slide-bleu {
+    background: #165487;
+    border: 1px solid #165487;
+}
+.slideInUp {
+    animation-name: slideInUp;
+}
+.animated {
+    animation-duration: 1s;
+    animation-fill-mode: both;
+}
+a {
+    color: #337ab7;
+    text-decoration: none;
+}
+.btns-slide a:hover {
+    
+    background-color: transparent;
+    border:  1px solid #fff;
+   
+}
+.media{
+    display: flex;
+    vertical-align:middle;
+}
+.media > svg{
+    margin: 10px;
+    cursor: pointer;
+    transition: all .4s ease-in-out;
+}
+
+.media :first-child:hover{
+}
+.media svg:nth-child(1):hover{
+    fill: #337ab7;
+
+}
+svg:nth-child(2):hover{
+    fill: hsl(194, 100%, 43%);
+
+}
+svg:nth-child(3):hover{
+    fill: red;
+
+}
+.down  {
+    height:30px;
+    width:30px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    line-height: 33px;
+    cursor: pointer;
+    background: rgba(19,85,133,.79);
+    color: #fff;
+    font-size: 20px;
+    position: absolute;
+    bottom: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+@media only screen and (max-width: 900px) {
+.down  {
+    display: none;
+  }
+  }
+
+  @keyframes FadeIn {
+    0%   {opacity: 0;}
+    100% {opacity: 1;}
+  } 
+  @keyframes move {
+    0%   {transform: translateY(100px);opacity: 0;}
+    100% {transform: translateY(0px);opacity: 1;}
+  } 
+  @keyframes move2 {
+    0%   {transform: translateY(150px);opacity: 0;}
+    100% {transform: translateY(0px);opacity: 1;}
+  } 
+/* animation-fill-mode: backwards; */

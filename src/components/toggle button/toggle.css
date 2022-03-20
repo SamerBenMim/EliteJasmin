@@ -1,0 +1,77 @@
+.menu-btn {
+  z-index: 99;
+
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+    height: 80px;
+    cursor: pointer;
+    transition: all .5s ease-in-out;
+    /* border: 3px solid #fff; */
+  }
+  .middle-menu-btn {
+    width: 32px;
+    height: 2px;
+    background: #01a6c2;
+    border-radius: 5px;
+    /* box-shadow: 0 2px 5px #534a4a; */
+    transition: all .5s ease-in-out;
+  }
+  .middle-menu-btn::before,
+  .middle-menu-btn::after {
+    content: '';
+    position: absolute;
+    width: 32px;
+    height: 2px;
+    background: #01a6c2;
+    border-radius: 5px;
+    /* box-shadow: 0 2px 5px #534a4a; */
+    transition: all .5s ease-in-out;
+  }
+  .middle-menu-btn::before {
+    transform: translateY(-10px);
+  }
+  .middle-menu-btn::after {
+    transform: translateY(10px);
+  }
+  /* ANIMATION */
+  .menu-btn.open .middle-menu-btn {
+    transform: translateX(-50px);
+    background: transparent;
+    box-shadow: none;
+  }
+  .menu-btn.open .middle-menu-btn::before {
+    transform: rotate(45deg) translate(35px, -35px);
+  }
+  .menu-btn.open .middle-menu-btn::after {
+    transform: rotate(-45deg) translate(35px, 35px);
+  }
+
+  .X{
+      display: none;
+      position: fixed;
+      z-index: 10;
+  }
+  @media screen and (max-width: 900px) {
+  
+    .X{
+      display: block;
+      top: 0;
+      right: 25px;
+    }
+   }
+     @media screen and (max-width: 400px) {
+  
+    .X{
+      top: 0;
+      right: 2px;
+    }
+    .Logo-img{
+        height: 140%;
+        width: 194px;
+        margin-left: 20px;   
+    }
+   
+   }
