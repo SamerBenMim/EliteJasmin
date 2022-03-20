@@ -1,11 +1,12 @@
 {
   "files": {
     "main.css": "/EliteJasmin/static/css/main.5b5f3103.css",
-    "main.js": "/EliteJasmin/static/js/main.214650f7.js",
+    "main.js": "/EliteJasmin/static/js/main.8f7c14cb.js",
     "static/js/787.54a194c1.chunk.js": "/EliteJasmin/static/js/787.54a194c1.chunk.js",
     "static/media/19264420_475301836152540__o.jpg": "/EliteJasmin/static/media/19264420_475301836152540_6674068954699460727_o.18243ab5e7fafcee3dde.jpg",
     "static/media/strategy.png": "/EliteJasmin/static/media/strategy.f02a1630d1435e64eb1a.png",
     "static/media/132173357_205618284544325__n.jpg": "/EliteJasmin/static/media/132173357_205618284544325_5043715956236823664_n.c1c27edf5bfe2ebfa89f.jpg",
+    "static/media/bg.jpg": "/EliteJasmin/static/media/bg.415789b452d39cf2aba2.jpg",
     "static/media/social.png": "/EliteJasmin/static/media/social.079328b55201945c6aca.png",
     "static/media/bg-transparent.png": "/EliteJasmin/static/media/bg-transparent.f031b96de69baa1f3ab8.png",
     "static/media/logo.png": "/EliteJasmin/static/media/logo.44dda71d097ba2af88f4.png",
@@ -14,11 +15,11 @@
     "index.html": "/EliteJasmin/index.html",
     "static/media/facebook-square-brands.svg": "/EliteJasmin/static/media/facebook-square-brands.cc6009944653bc6db99944450ee101e9.svg",
     "main.5b5f3103.css.map": "/EliteJasmin/static/css/main.5b5f3103.css.map",
-    "main.214650f7.js.map": "/EliteJasmin/static/js/main.214650f7.js.map",
+    "main.8f7c14cb.js.map": "/EliteJasmin/static/js/main.8f7c14cb.js.map",
     "787.54a194c1.chunk.js.map": "/EliteJasmin/static/js/787.54a194c1.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5b5f3103.css",
-    "static/js/main.214650f7.js"
+    "static/js/main.8f7c14cb.js"
   ]
 }
