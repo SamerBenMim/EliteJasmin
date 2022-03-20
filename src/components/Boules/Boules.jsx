@@ -4,8 +4,14 @@ import './boules.css'
 import bus from "./../../assets/autobus.png"
 import social from "./../../assets/social.png"
 import fourchette from "./../../assets/cuillaire.png"
+import bg from "./../../assets/bg.jpg"
+
 const Boules = () => {
-  return (<>        <h3>Notre ecole dispose de</h3>
+return (<>       
+    <div style={{textAlign:"center"}}> 
+      <img src={bg}alt="" style={{ borderRadius:"20px",marginBottom:'20px' ,width:"90%"}} />
+    </div>
+   <h3>Notre école dispose de</h3>
   <br/>
   <br/>
     <div className='boule-container' >
