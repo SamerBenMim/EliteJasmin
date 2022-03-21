@@ -14,8 +14,9 @@ const Info = () => {
         <div style={{width:"40px", marginBottom:"20px", borderRadius:"650px", backgroundColor:"red",height:"4px"}}></div>
         <div className='content'>
             <p style={{fontSize:"20px",}}>
-             commodo anim labore minim veniam amet do. Et nulla ad et ipsum est tempor dolore nostrud. Mollit mollit labore ut aliquip commodo labore deserunt reprehenderit et amet. Commodo nisi ea ipsum officia nostrud aute. Veniam proident eu do in veniam do nostrud exercitation labore.
-            Ad fugiat quis incididunt nulla labore cillum velit officia nisi proident. Veniam cupidatat cupidatat officia incididunt ut commodo anim labore minim veniam amet do. Et nulla ad et ipsum est tempor dolore nostrud. Mollit mollit labore ut aliquip commodo labore deserunt reprehenderit et amet. Commodo nisi ea ipsum officia nostrud aute. Veniam proident eu do in veniam do nostrud exercitation labore.
+            Le groupe ELITE des Jasmins est un établissement scolaire privé fondé en 2010, qui accueille plus de xxxx élèves répartis entre la maternelle, le primaire et bientot le collège.
+            Notre établissement enseigne le programme du Ministère de l'éducation nationale Tunisien a travers des instituteurs compétents , créatifs et bien expérimentés qui se dévouent à  l'acquisition de connaissances scientifiques et littéraires en se basant sur des méthodes et des outils informatiques modernes, notre staff est déterminé à créer un environnement d'apprentissage motivant et adapté aux besoins de chaque enfant, élargit l'éventail de ses activités et fonde un établissement scolaire à programme trilingue ainsi qu'un ensemble d'activités diversifiés sportifs et intellectuels sculptant la personnalité de notre enfant tout en collaborant avec les parents et la societé
+
             </p>
             <img className='tun' src={tun} alt="img" />
         </div>

@@ -1,0 +1,37 @@
+.cardCont{
+    display: flex;
+    flex-direction: column;
+    width: 190px;
+    height: 230px;
+    text-align: center;
+    font-family: 'Dosis', sans-serif;
+
+}
+
+.cardHead{
+    background-color: #abb2b9;
+    height: 100%;
+    color: #2c3e50;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cardCont h1{
+    font-weight: 900;
+    font-size: 19px;
+}
+.cardImg{
+    background-image: url("../../assets/secretary.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500%;
+}
+.cardFoot{
+    background-color: #e4e8e9;
+    height: 100%;
+    color: #2f4052;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+}

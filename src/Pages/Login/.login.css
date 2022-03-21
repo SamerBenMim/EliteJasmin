@@ -1,0 +1,10 @@
+.loginBg{
+    width: 100vw;
+    height: 88.5vh;    ;
+    background-image: url('../../assets/loginBg.jpg'); 
+     display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
