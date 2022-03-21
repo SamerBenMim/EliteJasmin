@@ -24,8 +24,8 @@ function App() {
             <BrowserRouter>
             <Navbar/>
     <Routes>
-      <Route path="/" element={ <Acceuil />}/>
-      <Route path="/login" element={<Login/>}/>
+      <Route path="/EliteJasmin" element={ <Acceuil />}/>
+      <Route path="/EliteJasmin/login" element={<Login/>}/>
     </Routes>
   </BrowserRouter>
 

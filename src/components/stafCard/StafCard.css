@@ -21,7 +21,7 @@
     font-size: 19px;
 }
 .cardImg{
-    background-image: url("../../assets/secretary.jpg");
+    /* background-image: vS; */
     background-size: cover;
     background-repeat: no-repeat;
     height: 500%;
@@ -34,4 +34,10 @@
     align-items: center;
     justify-content: center;
     text-transform: uppercase;
+}
+
+@media only screen and (max-width:440px){
+
+    .cardCont{     width: 150px;
+    }
 }

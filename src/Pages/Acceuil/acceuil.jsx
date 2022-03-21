@@ -6,6 +6,7 @@ import Info from '../../components/Info/info';
 import Boules from '../../components/Boules/Boules';
 import Loginform from '../../components/LoginForm/loginform';
 import StafCard from '../../components/stafCard/StafCard';
+import Staff from '../../components/staff/staff';
 
 const Acceuil = () => {
   return (<>
@@ -14,7 +15,7 @@ const Acceuil = () => {
     <Info/>
     <Strategy/>
     <Boules/>
-    <StafCard></StafCard>
+    <Staff/>
     <br />
     <br />
     <br />
