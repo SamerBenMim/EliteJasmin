@@ -7,6 +7,7 @@ import Boules from '../../components/Boules/Boules';
 import Loginform from '../../components/LoginForm/loginform';
 import StafCard from '../../components/stafCard/StafCard';
 import Staff from '../../components/staff/staff';
+import Footer from '../../components/footer/footer';
 
 const Acceuil = () => {
   return (<>
@@ -16,11 +17,8 @@ const Acceuil = () => {
     <Strategy/>
     <Boules/>
     <Staff/>
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
+    <Footer/>
+
   </>
     )
 }

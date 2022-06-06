@@ -21,7 +21,7 @@ const Staff = () => {
 
       
         {/* <div className='staff-block'> */}
-        {data.map(p=><StafCard name={p.nom} position={p.position} src={p.img} description={p.description} />)}
+        {data.map(p=><StafCard name={p.nom} position={p.position} src={p.img} description={p.description} quote={p.quote} />)}
         {/* </div> */}
         {/* <div className='staff-block'>
         {data.map(p=>{ if (p.id<10 && p.id>4 ) return <StafCard name={p.nom} position={p.position} img={p.img} description={p.description} />})}

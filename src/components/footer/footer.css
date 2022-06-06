@@ -1,0 +1,219 @@
+.footer-container{
+    width: 100%;
+    background-color: #1a1a1a;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+.footer-container{
+    text-align: center;
+    color: #8f8f8f;
+    padding: 60px;
+    font-size: 13px;
+}
+.footer-contact-us{
+    display: flex;
+}
+.fb{
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    background-color:#444 ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: .3s ease-in-out;
+    cursor: pointer;
+}
+.fb:hover{
+background-color: #3CB6D2;
+}
+.footer-contact-us{
+    margin-bottom: 15px;
+    margin-top:7px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.media-cont{
+    width: 260px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.footer-contacts{
+    min-width: 300px;
+
+    width: 30%;
+}
+.footer-map{
+    width:45%;
+    min-width: 300px;
+    margin-bottom: 20px;
+
+}
+.footer-message{
+    width: 25%;
+    min-width: 300px;
+}
+
+.footer-main{
+    display: flex;
+    border-top: .01px solid #8f8f8f;
+    border-bottom: .01px solid #8f8f8f;
+}
+.footer-contacts .title{
+    font-size: 18px;
+    font-weight: normal;
+    font-family: 'Oswald';
+    letter-spacing: 0.05em;
+    color: #ffffff;
+    margin-bottom: 30px;
+    padding-top: 15px;
+    background-color: transparent;
+    padding-left: 0;
+    position: relative;
+    text-align: start;
+    height: 50px;
+
+}
+.footer-contacts .title div{
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    width: 24px;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    border-bottom-color: #e5c000;
+    transition: .4s ease-in-out;
+}
+.footer-info{
+    text-align: start;
+}
+.footer-map .title{
+    font-size: 18px;
+    font-weight: normal;
+    font-family: 'Oswald';
+    letter-spacing: 0.05em;
+    color: #ffffff;
+    margin-bottom: 30px;
+    padding-top: 15px;
+    background-color: transparent;
+    padding-left: 0;
+    position: relative;
+    text-align: start;
+    height: 50px;
+
+}
+.footer-map  .title div{
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    width: 24px;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    border-bottom-color: #e5c000;
+    transition: .4s ease-in-out;
+
+}
+.footer-message .title{
+    font-size: 18px;
+    font-weight: normal;
+    font-family: 'Oswald';
+    letter-spacing: 0.05em;
+    color: #ffffff;
+    margin-bottom: 30px;
+    padding-top: 15px;
+    background-color: transparent;
+    padding-left: 0;
+    position: relative;
+    text-align: start;
+    height: 50px;
+
+}
+.footer-message  .title div{
+    transition: .4s ease-in-out;
+
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    width: 24px;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    
+    border-bottom-color: #e5c000;
+}
+.footer-message .title:hover div{
+width:110px;
+}
+.footer-map .title:hover div{
+width: 110px;
+}
+.footer-contacts .title:hover div{
+width: 70px;
+}
+.title{
+    cursor: pointer;
+}
+.google-map{
+    height: 100%;
+    width: 100%;
+    background-color: #e5c000;
+}
+.footer-end div{
+    text-align: end;
+    margin-top: 10px;
+}
+@media only screen and (max-width: 1400px) {
+  .footer-main{
+      flex-direction: column;
+      text-align: center;
+      width: 100%;
+
+  }
+  .footer-map {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      align-items: center;
+  }
+  .footer-contacts {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    }
+    .footer-message{
+        width: 100%;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      align-items: center;
+      margin-bottom: 10px;
+        }
+    .footer-container{
+padding: 5px;
+        }
+        .footer-info{
+            text-align: center;
+        }
+        .map-container{
+            width: 100%;
+        }
+
+  }
+  .map-container{
+      width: 80%;
+  }
+
+
+
+@media only screen and (max-width: 1400px) {
+    .footer-end{
+        font-size: 10px;
+  
+    }
+}
