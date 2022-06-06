@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/EliteJasmin/static/css/main.141851f4.css",
-    "main.js": "/EliteJasmin/static/js/main.b22b2565.js",
+    "main.css": "/EliteJasmin/static/css/main.0418a98b.css",
+    "main.js": "/EliteJasmin/static/js/main.96658d2a.js",
     "static/js/787.54a194c1.chunk.js": "/EliteJasmin/static/js/787.54a194c1.chunk.js",
     "static/media/logo3.png": "/EliteJasmin/static/media/logo3.3b68b879ff0afe02c5d1.png",
     "static/media/19264420_475301836152540__o.jpg": "/EliteJasmin/static/media/19264420_475301836152540_6674068954699460727_o.18243ab5e7fafcee3dde.jpg",
@@ -27,14 +27,22 @@
     "static/media/mobile_apps1.svg": "/EliteJasmin/static/media/mobile_apps1.3cbbd84c94b6e9778e9d98b922c912d7.svg",
     "static/media/pc.svg": "/EliteJasmin/static/media/pc.0171c6142e7e72a7678536ba8613020a.svg",
     "static/media/logo.svg": "/EliteJasmin/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "static/media/phone.svg": "/EliteJasmin/static/media/phone.0e2e071548499ca279a7ab51a362937a.svg",
+    "static/media/insta.svg": "/EliteJasmin/static/media/insta.b77f1950f00e0f0fa9af94f7dc16d406.svg",
+    "static/media/ytb.svg": "/EliteJasmin/static/media/ytb.3cfaa73c9e1acd6363fa3513723f4b62.svg",
+    "static/media/twitter.svg": "/EliteJasmin/static/media/twitter.bef829074f09be7888929673d49f9578.svg",
+    "static/media/google.svg": "/EliteJasmin/static/media/google.ea3b463207d380210e276efdb378ca72.svg",
     "index.html": "/EliteJasmin/index.html",
+    "static/media/message.svg": "/EliteJasmin/static/media/message.b51c182138de8330255322e9fa8eead8.svg",
+    "static/media/addressIcon.svg": "/EliteJasmin/static/media/addressIcon.bc3fd5d6b386c6c221af05bdd83afcfd.svg",
+    "static/media/fb.svg": "/EliteJasmin/static/media/fb.f4fe3517279105cdd28d61c866291c90.svg",
     "static/media/facebook-square-brands.svg": "/EliteJasmin/static/media/facebook-square-brands.cc6009944653bc6db99944450ee101e9.svg",
-    "main.141851f4.css.map": "/EliteJasmin/static/css/main.141851f4.css.map",
-    "main.b22b2565.js.map": "/EliteJasmin/static/js/main.b22b2565.js.map",
+    "main.0418a98b.css.map": "/EliteJasmin/static/css/main.0418a98b.css.map",
+    "main.96658d2a.js.map": "/EliteJasmin/static/js/main.96658d2a.js.map",
     "787.54a194c1.chunk.js.map": "/EliteJasmin/static/js/787.54a194c1.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.141851f4.css",
-    "static/js/main.b22b2565.js"
+    "static/css/main.0418a98b.css",
+    "static/js/main.96658d2a.js"
   ]
 }
