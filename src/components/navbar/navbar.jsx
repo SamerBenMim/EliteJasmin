@@ -27,8 +27,8 @@ const Navbar = () => {
          >Acceuil</Link>
         <Link to="/EliteJasmin" className={ active==2 ? "active" :"option"  } onClick={()=>{setActive(2);document.querySelector(".strategy").scrollIntoView({behavior: "smooth"});}}
         >A propos de nous</Link> 
-        <Link to="/EliteJasmin" className={ active==4 ? "active" :"option"  } onClick={()=>{setActive(4)}}>contact</Link>
-        <Link  to="/EliteJasmin" className={ active==3 ? "active" :"option"  } onClick={()=>{setActive(3)}}
+        <Link to="/EliteJasmin" className={ active==4 ? "active" :"option"  } onClick={()=>{setActive(4);document.querySelector(".footer-container").scrollIntoView({behavior: "smooth"})}}>contact</Link>
+        <Link  to="/EliteJasmin" className={ active==3 ? "active" :"option"  } onClick={()=>{setActive(3);setActive(2)}}
         >poles d'activites</Link>
         <Link to="/EliteJasmin/login" className={active==5 ? "active" :"option"} style={{ marginRight: '85px'}}onClick={()=>{setActive(5)}}>espace parent</Link> 
       </div>

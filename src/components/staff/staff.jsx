@@ -11,7 +11,7 @@ const Staff = () => {
 
     <div style={{marginTop:"30px",marginBottom:"50px"}}>
     {/* <img src={manager} alt="directeur" /> */}
-    <StafCard name={"John Doe"} position={"Directeur"} src={manager} description={"aaa"} width="240px" height="280px" />
+    <StafCard name={"John Doe"} position={"Directeur"} src={manager} description={"aaa"}  quote="De bonnes écoles sont un grand trésor ; mais pour qu'elles profitent, il faut qu'à la maison règnent l'ordre, la discipline et les bonnes mœurs." width="240px" height="280px" />
     {/* <img src={swing} style={{    position: "absolute",
     top:" 3463px",
     left: "357px"}} alt="img" /> */}
